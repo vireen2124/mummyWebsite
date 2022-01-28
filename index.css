@@ -273,15 +273,16 @@ p{
 .project-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:1rem;
     font-size: 2rem;
+    text-align: center;
     text-transform: capitalize;
-    color: rgb(255, 255, 255);
-    margin-left: 360px;
-    margin-right: auto;
+    color: white;
+    margin: auto 5rem;
     
 }
 .punjabi-suit{
-    background-image: url(images/punjabi-suits.jpg);
+    background-image: url(images/punjabi-suit.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     height:50vh;
@@ -291,19 +292,19 @@ p{
 }
 
 .lehenga{
-    background-image: url(images/lehenga.jpg);
+    background-image: url(images/lehenga.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     height:50vh;
 }
 .tops{
-    background-image: url(images/kurti.jpg);
+    background-image: url(images/tops.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     height:50vh;
 }
 .saree{
-    background-image: url(images/saree.jpg);
+    background-image: url(images/saree.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     height:50vh;
@@ -311,8 +312,7 @@ p{
 .individual-project-title{
     transition: all 2s;
     font-size: 2rem;
-    position: relative;
-    top: 65px;
+    font-weight: bold;
 }
 
 .project-mouseover{
@@ -324,7 +324,7 @@ p{
 }
 
 .project-mouseover:hover{
-    background-color: rgba(132, 0, 255, 0.2);
+    background-color: rgba(255,0,0,0.2);
     align-items: center;
 }
 footer{
